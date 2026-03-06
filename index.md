@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
 
 # Muon Colliders: A New Direction in High Energy Physics
 
