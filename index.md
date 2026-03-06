@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Muon Colliders: A New Direction in High Energy Physics
-
 ## About
 In particle physics, the 10 TeV scale has emerged as the next target in the exploration of the energy frontier. 
 A collider with this center of mass energy is essential to unravel mysteries surrounding the Higgs mechanism, unambiguously discover or exclude long-favored dark matter scenarios, and search for new phenomena in completely new territory. 
