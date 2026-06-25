@@ -41,17 +41,17 @@ groups:
         rank: Postdoc
       - name: Ryan Roberts
         initials: RR
-        rank:
+        rank: Postdoc
       - name: Radha Mastandrea
         initials: RM
-        rank:
+        rank: Postdoc
       - name: Daniel Abadjiev
         initials: DA
         rank: Graduate Student
         photo: daniel-abadjiev.jpeg
       - name: Eliza Howard
         initials: EH
-        rank:
+        rank: Undergraduate
   - id: utk
     name: University of Tennessee, Knoxville
     short: UTK
@@ -60,16 +60,16 @@ groups:
         initials: DK
         rank: Postdoc
         photo: daisy-kalra.jpeg
-      - name: JP Dervan
-        initials: JP
-        rank: Graduate Student
+      - name: John Dervan
+        initials: JD
+        rank: Postdoc
       - name: Rithika Ganesan
         initials: RG
-        rank:
+        rank: Graduate Student
       - name: Jordan Ashley
         initials: JA
-        rank:
-      - name: Julian Watts
+        rank: Undergraduate
+      - name: Jullian Watts
         initials: JW
-        rank: Postdoc
+        rank: Undergraduate
         photo: julian-watts.jpeg
