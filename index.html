@@ -72,7 +72,7 @@
               </div>
             </div>
             <div class="person-name">{{ person.name }}</div>
-            <div class="person-inst">{{ group.short }}</div>
+            {% if person.rank %}<div class="person-inst">{{ person.rank }}</div>{% endif %}
           </div>
           {% endfor %}
         </div>

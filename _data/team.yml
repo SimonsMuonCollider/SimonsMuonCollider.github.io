@@ -22,12 +22,15 @@ groups:
     members:
       - name: Kiley Kennedy
         initials: KK
+        rank: Postdoc
         photo: kiley-kennedy.jpeg
       - name: Rose Powers
         initials: RP
+        rank: Graduate Student
         photo: rose-powers.jpg
       - name: Mila Bileska
         initials: MB
+        rank: Graduate Student
         photo: mila-bileska.jpeg
   - id: chicago
     name: University of Chicago
@@ -35,28 +38,38 @@ groups:
     members:
       - name: Benjamin Rosser
         initials: BR
+        rank: Postdoc
       - name: Ryan Roberts
         initials: RR
+        rank:
       - name: Radha Mastandrea
         initials: RM
+        rank:
       - name: Daniel Abadjiev
         initials: DA
+        rank: Graduate Student
         photo: daniel-abadjiev.jpeg
       - name: Eliza Howard
         initials: EH
+        rank:
   - id: utk
     name: University of Tennessee, Knoxville
     short: UTK
     members:
       - name: Daisy Kalra
         initials: DK
+        rank: Postdoc
         photo: daisy-kalra.jpeg
       - name: JP Dervan
         initials: JP
+        rank: Graduate Student
       - name: Rithika Ganesan
         initials: RG
+        rank:
       - name: Jordan Ashley
         initials: JA
+        rank:
       - name: Julian Watts
         initials: JW
+        rank: Postdoc
         photo: julian-watts.jpeg
