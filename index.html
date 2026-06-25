@@ -1,0 +1,90 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <div class="topbar"></div>
+
+  <header>
+    <div class="header-inner">
+      <a href="/" class="site-title">
+        <span class="title-main">Muon Colliders</span>
+        <span class="title-sub">A New Direction in High Energy Physics</span>
+      </a>
+      <nav>
+        <a href="#people" class="active">People</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="about" id="about">
+      <p>In particle physics, the 10&nbsp;TeV scale has emerged as the next target in the exploration of the energy frontier. A muon collider is the machine with a chance of reaching this scale in the next few decades&mdash;a paradigm shift for the field. This effort advances the experimental design while fostering interdisciplinary collaboration between accelerator physicists and collider experimentalists, supported by the <a href="https://www.simonsfoundation.org/funded-project/muon-colliders-a-new-direction-in-high-energy-physics/">Simons Foundation</a>.</p>
+    </section>
+
+    <section id="people">
+
+      <div class="section-block">
+        <h2 class="section-label">Principal Investigators</h2>
+        <div class="people-grid">
+          {% for person in site.data.team.pis %}
+          <div class="person">
+            <div class="avatar-wrap {{ person.group }}-ring">
+              <div class="avatar {{ person.group }}-fill">
+                {% if person.photo %}
+                <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}">
+                {% else %}
+                {{ person.initials }}
+                {% endif %}
+              </div>
+            </div>
+            <div class="person-name">{{ person.name }}</div>
+            <div class="person-inst">{{ person.institution }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      {% for group in site.data.team.groups %}
+      <div class="section-block">
+        <h2 class="section-label">{{ group.name }}</h2>
+        <div class="people-grid">
+          {% for person in group.members %}
+          <div class="person">
+            <div class="avatar-wrap {{ group.id }}-ring">
+              <div class="avatar {{ group.id }}-fill">
+                {% if person.photo %}
+                <img src="{{ '/assets/img/' | append: person.photo | relative_url }}" alt="{{ person.name }}">
+                {% else %}
+                {{ person.initials }}
+                {% endif %}
+              </div>
+            </div>
+            <div class="person-name">{{ person.name }}</div>
+            <div class="person-inst">{{ group.short }}</div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Supported by the <a href="https://www.simonsfoundation.org/funded-project/muon-colliders-a-new-direction-in-high-energy-physics/">Simons Foundation</a></p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+pis:
+  - name: Isobel Ojalvo
+    initials: IO
+    institution: Princeton University
+    group: princeton
+  - name: Karri DiPetrillo
+    initials: KD
+    institution: University of Chicago
+    group: chicago
+  - name: Tova Holmes
+    initials: TH
+    institution: University of Tennessee, Knoxville
+    group: utk
+
+groups:
+  - id: princeton
+    name: Princeton University
+    short: Princeton
+    members:
+      - name: Kiley Kennedy
+        initials: KK
+      - name: Rose Powers
+        initials: RP
+      - name: Mila Bileska
+        initials: MB
+  - id: chicago
+    name: University of Chicago
+    short: U Chicago
+    members:
+      - name: Benjamin Rosser
+        initials: BR
+      - name: Ryan Roberts
+        initials: RR
+      - name: Radha Mastandrea
+        initials: RM
+      - name: Daniel Abadjiev
+        initials: DA
+      - name: Eliza Howard
+        initials: EH
+  - id: utk
+    name: University of Tennessee, Knoxville
+    short: UTK
+    members:
+      - name: Daisy Kalra
+        initials: DK
+      - name: JP Dervan
+        initials: JP
+      - name: Rithika Ganesan
+        initials: RG
+      - name: Jordan Ashley
+        initials: JA
+      - name: Julian Watts
+        initials: JW
