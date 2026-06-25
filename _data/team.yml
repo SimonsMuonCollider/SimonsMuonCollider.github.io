@@ -3,14 +3,17 @@ pis:
     initials: IO
     institution: Princeton University
     group: princeton
+    photo: isobel-ojalvo.png
   - name: Karri DiPetrillo
     initials: KD
     institution: University of Chicago
     group: chicago
+    photo: karri-dipetrillo.jpg
   - name: Tova Holmes
     initials: TH
     institution: University of Tennessee, Knoxville
     group: utk
+    photo: tova-holmes.jpeg
 
 groups:
   - id: princeton
@@ -19,10 +22,13 @@ groups:
     members:
       - name: Kiley Kennedy
         initials: KK
+        photo: kiley-kennedy.jpeg
       - name: Rose Powers
         initials: RP
+        photo: rose-powers.jpg
       - name: Mila Bileska
         initials: MB
+        photo: mila-bileska.jpeg
   - id: chicago
     name: University of Chicago
     short: U Chicago
@@ -35,6 +41,7 @@ groups:
         initials: RM
       - name: Daniel Abadjiev
         initials: DA
+        photo: daniel-abadjiev.jpeg
       - name: Eliza Howard
         initials: EH
   - id: utk
@@ -43,6 +50,7 @@ groups:
     members:
       - name: Daisy Kalra
         initials: DK
+        photo: daisy-kalra.jpeg
       - name: JP Dervan
         initials: JP
       - name: Rithika Ganesan
@@ -51,3 +59,4 @@ groups:
         initials: JA
       - name: Julian Watts
         initials: JW
+        photo: julian-watts.jpeg
