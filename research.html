@@ -20,7 +20,7 @@
         <span class="title-sub">A New Direction in High Energy Physics</span>
       </a>
       <nav>
-        <a href="/">People</a>
+        <a href="/">About</a>
         <a href="/research.html" class="active">Research</a>
       </nav>
     </div>
@@ -38,7 +38,6 @@
             {% if pub.authors %}<div class="research-authors">{{ pub.authors | join: ", " }}</div>{% endif %}
             <div class="research-meta">
               {% if pub.journal %}<span>{{ pub.journal }}</span>{% endif %}
-              {% if pub.year %}<span>{{ pub.year }}</span>{% endif %}
             </div>
             <div class="research-links">
               {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank" rel="noopener">arXiv:{{ pub.arxiv }}</a>{% endif %}
@@ -49,25 +48,6 @@
         </ul>
       </div>
 
-      <div class="section-block">
-        <h2 class="section-label">Talks</h2>
-        <ul class="research-list">
-          {% for talk in site.data.research.talks %}
-          <li class="research-item">
-            <div class="research-title">{{ talk.title }}</div>
-            <div class="research-meta">
-              {% if talk.speaker %}<span>{{ talk.speaker }}</span>{% endif %}
-              {% if talk.venue %}<span>{{ talk.venue }}</span>{% endif %}
-              {% if talk.date %}<span>{{ talk.date | date: "%B %-d, %Y" }}</span>{% endif %}
-            </div>
-            <div class="research-links">
-              {% if talk.slides %}<a href="{{ talk.slides }}" target="_blank" rel="noopener">Slides</a>{% endif %}
-              {% if talk.video %}<a href="{{ talk.video }}" target="_blank" rel="noopener">Video</a>{% endif %}
-            </div>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
     </section>
 
   </main>
