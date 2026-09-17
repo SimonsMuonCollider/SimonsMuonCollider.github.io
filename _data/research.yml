@@ -1,0 +1,27 @@
+publications:
+  - title: "Fast BIB simulation at a future Muon Collider with generative machine learning"
+    authors:
+      - "Radha Mastandrea"
+      - "Benjamin Rosser"
+      - "et al."
+    arxiv: "2609.12054"
+  - title: "On-Detector Machine Learning for Beam-Induced Background Rejection at a 10 TeV Muon Collider"
+    authors:
+      - "Daniel Abadjiev"
+      - "Eliza Howard"
+      - "Ryan Roberts"
+      - "Benjamin Rosser"
+      - "Karri DiPetrillo"
+      - "et al."
+    arxiv: "2608.21327"
+  - title: "MAIA: A new detector concept for a 10 TeV muon collider"
+    authors:
+      - "John Dervan"
+      - "Karri DiPetrillo"
+      - "Tova Holmes"
+      - "Kiley Kennedy"
+      - "Isobel Ojalvo"
+      - "Rose Powers"
+      - "Benjamin Rosser"
+      - "et al."
+    arxiv: "2502.00181"

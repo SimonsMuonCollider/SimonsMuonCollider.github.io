@@ -1,0 +1,60 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <div class="topbar"></div>
+
+  <header>
+    <div class="header-inner">
+      <a href="/" class="site-title">
+        <span class="title-main">Muon Colliders</span>
+        <span class="title-sub">A New Direction in High Energy Physics</span>
+      </a>
+      <nav>
+        <a href="/">About</a>
+        <a href="/research.html" class="active">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="research-section">
+      <div class="section-block">
+        <h2 class="section-label">Publications</h2>
+        <ul class="research-list">
+          {% for pub in site.data.research.publications %}
+          <li class="research-item">
+            <div class="research-title">{{ pub.title }}</div>
+            {% if pub.authors %}<div class="research-authors">{{ pub.authors | join: ", " }}</div>{% endif %}
+            <div class="research-meta">
+              {% if pub.journal %}<span>{{ pub.journal }}</span>{% endif %}
+            </div>
+            <div class="research-links">
+              {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank" rel="noopener">arXiv:{{ pub.arxiv }}</a>{% endif %}
+              {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Supported by the <a href="https://www.simonsfoundation.org/funded-project/muon-colliders-a-new-direction-in-high-energy-physics/">Simons Foundation</a></p>
+  </footer>
+
+</body>
+</html>
